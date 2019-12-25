@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SSLErrorOverrideAllowed</key>
+	<true/>
+	<key>SitePerProcess</key>
+	<true/>
+	<key>SSLVersionMin</key>
+	<string>tls1.2</string>
+	<key>DefaultPluginsSetting
+</key>
+	<integer>2</integer>
+	<key>ExtensionInstallBlocklist</key>
+	<array>
+		<string>*</string>
+	</array>
+	<key>AuthSchemes</key>
+	<string>ntlm,negotiate</string>
+	<key>NativeMessagingUserLevelHosts</key>
+	<false/>
+	<key>PasswordManagerEnabled</key>
+	<false/>
+	<key>SmartScreenEnabled</key>
+	<true/>
+	<key>PreventSmartScreenPromptOverride</key>
+	<true/>
+	<key>PreventSmartScreenPromptOverrideForFiles</key>
+	<true/>
+</dict>
+</plist>
